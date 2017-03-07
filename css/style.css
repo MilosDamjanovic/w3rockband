@@ -41,12 +41,12 @@ li>a{
     text-decoration: none !important;
 }
 .container{
-    max-width: 600px;
-    padding: 5px 16px;
+    max-width: 600px;   
 }
 .heading1{
     letter-spacing: 4px;
     text-decoration: uppercase;
+    letter-spacing: 3px;
 }
 .heading3{
     opacity: 0.5;
@@ -66,16 +66,19 @@ li>a{
 #cards{
     padding-top: 32px !important;
     padding-bottom: 32px !important;
+    clear: both;
 }
 .card{
     float: left;
     width: 33.3%;
 }
-.card img{
-    width: 80%;
-    margin-bottom: 16px !important;
+.nme{
     border-radius: 5px;
-    border-style: none;
+    width: 80%;
+    border-style: none; 
+}
+.card img{
+    margin-bottom: 16px !important;
 }
 #tour{
     clear: both;
@@ -83,6 +86,7 @@ li>a{
 }
 .text{
     color: #757575 !important;
+    clear: both;
 }
 .color{
     background-color: #fff !important;
@@ -90,9 +94,39 @@ li>a{
 .border{
     border: 1px solid #ccc !important;
 }
+.border li{
+    border: 1px solid #ccc !important;
+}
+.calendar{
+    margin: 0 auto;
+}
 .padding{
     padding: 8px 16px !important;
 }
-.border li{
-    border: 1px solid #ccc !important;
+.calendar > .padding{
+   text-align: left;
+}
+.sold{
+    background-color: red;
+    color: white;
+    font-weight: 400;
+    padding: 2 2;
+    margin-left: 4px;
+}
+.cities{
+	width: 95%;
+    height: 126px;
+	border-bottom: 1px solid black;
+}
+.cities-hover-opacity:hover{
+    opacity: 0.6;
+}
+.panorama{
+    
+}
+#buyt{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    width: 90px;
 }
