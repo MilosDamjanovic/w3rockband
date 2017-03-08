@@ -45,11 +45,14 @@ li>a{
 }
 .heading1{
     letter-spacing: 4px;
-    text-decoration: uppercase;
+    text-transform: uppercase;
     letter-spacing: 3px;
+	margin-bottom: 10px;
 }
 .heading3{
     opacity: 0.5;
+	text-transform: uppercase;
+	font-size: 12px;
 }
 .alignment{
     text-align: center !important;
@@ -70,16 +73,16 @@ li>a{
 }
 .card{
     float: left;
-    width: 33.3%;
+    width: 32.3%;
+	margin: 0 3px;
 }
 .nme{
     border-radius: 5px;
     width: 80%;
     border-style: none; 
+	 margin-bottom: 16px !important;
 }
-.card img{
-    margin-bottom: 16px !important;
-}
+
 #tour{
     clear: both;
     max-width: 100%;
@@ -113,20 +116,53 @@ li>a{
     padding: 2 2;
     margin-left: 4px;
 }
+.panorama{
+	margin-top: 32px;
+	content: "";
+    display: table;
+    clear: both;
+	width: 100%;
+}
 .cities{
-	width: 95%;
-    height: 126px;
+	width: 100%;
+    height: 150px;
+	margin-bottom: 0;
 	border-bottom: 1px solid black;
 }
 .cities-hover-opacity:hover{
     opacity: 0.6;
 }
-.panorama{
-    
-}
-#buyt{
+.buyt{
+    border: none;
+    display: inline-block;
+    outline: 0;
     background-color: black;
     color: white;
     border-radius: 3px;
     width: 90px;
+	vertical-align: middle;
+	overflow: hidden;
+    text-decoration: none!important;
+	text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+	margin-bottom: 6px
+}
+.polis{
+	font-size: 22px;
+}
+.card>cities-hover-opacity{
+	margin-bottom: 0px;
+}
+.paragraph{
+	color: black;
+    background-color: white;
+	margin-top: -10px;
+}
+.paragraph:nth-child(2){
+	font-size: 12px;
+	font-weight: 100;
+}
+.paragraph b{
+	padding-top: 20px;
 }
